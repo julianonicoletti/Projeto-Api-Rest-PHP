@@ -26,6 +26,7 @@ Aplicação API Rest usando PHP e um banco de dados MySQL. Sistema para gerencia
 	````http://localhost:8000/api/tasks/<numeroID_da_tarefa>````
 - ## Criar uma nova tarefa
 	Utilizando um software como Postman fazer o POST para:
+
 	````http://localhost:8000/api/tasks````
 
 	Incluindo no corpo as informações como "titulo", "descricao" e "status".
