@@ -17,13 +17,41 @@
 
 Aplicação API Rest usando PHP e um banco de dados MySQL. Sistema para gerenciamento de tarefas utilizando Laravel. O sistema é capaz de:
 
-- Listar todas as tarefas
-- Obter detalhes de uma tarefa específica
-- Criar uma nova tarefa
-- Atualizar os dados de uma tarefa existente
-- Excluir uma tarefa
-- Configurar a listagem das tarefas em ordem crescente ou descrente por qualquer ítem da lista.
-- Paginação da quantidade de tarefas.
+- ## Listar todas as tarefas
+
+	```http://localhost:8000/api/tasks```
+
+- ## Obter detalhes de uma tarefa específica
+
+	```http://localhost:8000/api/tasks/<numeroID_da_tarefa>```
+- ## Criar uma nova tarefa
+	Utilizando um software como Postman fazer o POST para:
+	```http://localhost:8000/api/tasks```
+
+	Incluindo no corpo as informações como "titulo", "descricao" e "status".
+- ## Atualizar os dados de uma tarefa existente
+	Utilizando um software como Postman fazer o PUT para:
+	```http://localhost:8000/api/tasks/<numeroID_da_tarefa>```
+	
+	Incluindo os dados a serem adicionados naquela tarefa.
+
+
+
+- ## Excluir uma tarefa
+	Utilizando um software como Postman fazer o DELETE para:
+	```http://localhost:8000/api/tasks/<numeroID_da_tarefa>```
+- ## Configurar a listagem das tarefas em ordem crescente ou descrente por qualquer ítem da lista.
+	Usando o navegador ou utilizando um software como Postman fazer o GET para:
+	```http://localhost:8000/api/tasks/?ordenar_por=titulo&ordenar_direcao=desc```
+
+	Onde "ordenar_por" pode ser substituido por 'descricao' ou 'status'.
+	E ordenar_direcao pode ser substituido por 'asc' para ordenar de forma crescente.
+- ## Paginação da quantidade de tarefas.
+	Usando o navegador ou utilizando um software como Postman fazer o GET para:
+	```http://localhost:8000/api/tasks?por_pagina=10```
+
+	Onde pode-se estipular quantas tarefas serão exibidas por página.
+
 
 <br>
 
