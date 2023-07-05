@@ -55,6 +55,14 @@ Aplicação API Rest usando PHP e um banco de dados MySQL. Sistema para gerencia
 
 <br>
 
+## Link para Video de Orientação
+
+<br>
+
+<a title="API REST Usando PHP, MySQL, XAMPP e VS Code" href="https://youtu.be/UlFEoBVVIIw"><img width="256" alt="YouTube Logo 2017" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/256px-YouTube_Logo_2017.svg.png"></a>
+
+<br>
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
